@@ -114,7 +114,7 @@ if ($_REQUEST['run'] == "Y" && $_REQUEST['id']) {
                         'NAME' => $item['title'],
                         'DETAIL_TEXT' => $item['body'],
                         'DATE_CREATE' => $date_c->format('d.m.Y h:m:s'),
-                        'IBLOCK_SECTION_ID' => work::SECTION_ID_WORK_DETI,
+                        'IBLOCK_SECTION_ID' => work::SECTION_ID_DETI,
                         'PROPERTY_VALUES' => array(
                             'LARAVEL_ID' => $item['id'],
                             'IS_CHILD' => $item['child'] ? 1 : null,
